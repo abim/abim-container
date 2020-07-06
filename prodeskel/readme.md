@@ -22,7 +22,7 @@ Update column yg kosong:
 - Kode desa yang masih kosong
   ```
   UPDATE adm INNER JOIN desa ON adm.desa=desa.desa SET adm.kode=desa.kode
-  ``
+  ```
 - untuk kode desa yang salah input / tidak valid, kosongkan column secara manual atau :
   ```
   UPDATE nama_table AS satu SET satu.kode='' WHERE satu.desa='nama_desa'
