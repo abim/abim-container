@@ -39,5 +39,6 @@ Update column yg kosong:
 ---
 
 Fail (`timeout`):
+-
 - Prasana wilayah => transportasi
 - Kependudukan => Mata pencaharian
