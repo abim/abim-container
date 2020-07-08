@@ -41,9 +41,3 @@ Update column yg kosong:
   ```sql
   UPDATE nama_table_yg_akan_diupdate AS satu INNER JOIN isi_table_referensi AS dua ON satu.desa=dua.desa AND satu.kec=dua.kec SET satu.kode=dua.kode WHERE satu.kode =''
   ```
----
-
-Fail (`timeout`):
--
-- Prasana wilayah => transportasi
-- Kependudukan => Mata pencaharian
